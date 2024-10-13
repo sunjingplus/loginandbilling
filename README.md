@@ -153,3 +153,17 @@ Userlogin->utils->plans.ts
 运行代码可以顺利登录支付
 
 如果有多语言设置，应该确保api位置能够访问的到，否则可能造成支付回调失败
+
+
+
+数据库各个表的作用以及使用
+Users，sessions，accounts，
+verification_tokens这几张表在用户登录的时候初始化使用
+orders记录订单，在webhooks里面获取到新的订单的时候创建
+credits记录积分使用，一个用户第一次订单时创建，之后是更新该用户的字
+subscription_plans记录各种订阅计划，webhooks回调会根据发送的产品的id选择创建还是更新
+user_subscriptions，用户的订阅状态过期时间等，第一次创建，之后用户有新的订阅更新
+credits_categories积分类别表，会根据订阅产品创建积分类别，一个订阅产品一个积分类别
+subscription_benefits_rules积分分配规则表，订阅产品创建成功的时候会根据env文件里面去识别订阅产品的变体id获取对应的积分规则进行初始化创建
+user_credits_allocation，根据webhooks里面获取的产品id去获取subscription_benefits_rules里面的分配规则去记录用户的积分分配以及分配之后剩余积分
+credits_usage用户使用积分的时候进行记录积分的使用
