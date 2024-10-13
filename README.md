@@ -53,16 +53,17 @@
 # 项目配置
 
 ## 文件夹结构
+如果文件位置不按照此放置，可能有些文件引入需要从新引入
 
 ```
 project-root/
 |- app
 |  |- api
 |  |  |- pricing
-|  |- components
+|  components
 |  |  |- (userlogin)
-|  |- db
-|  |- drizzle.config.ts
+|  db
+|  drizzle.config.ts
 |- .env
 ```
 
@@ -127,7 +128,7 @@ DEFAULT_CREDITS_TO_USE=10 # 默认使用一次功能用掉的积分的信用额�
 3. **支付**：
    - [Lemon Squeezy支付配置](https://app.lemonsqueezy.com/)
    - 内网穿透设置
-
+在初始化文档里面有支付的带图详解
 ## 产品创建时配置
 
 - `LEMON_SQUEEZY_API_KEY`
