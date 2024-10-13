@@ -16,7 +16,7 @@ drizzle.config.ts
 NEXTAUTH_SECRET="DN12chza0vkL8N5oFs8H0XBNGQ02OmHFHwfLfzTok6rzuERz-_ogGaNiKbuR_pSaZ_ZBTz-lgCWtJyQcjABPfw" # NextAuth.js的加密密钥，用于保护用户会话
 NEXTAUTH_URL=http://localhost:3000/ # NextAuth.js的回调URL，用于处理身份验证流程
 
-DATABASE_URL="postgresql://neondb_owner:zA5W0Egrhutk@ep-billowing-moon-a6bih0ah.us-west-2.aws.neon.tech/neondb?sslmode=require" # PostgreSQL数据库的连接字符串
+DATABASE_URL="" # PostgreSQL数据库的连接字符串
 
 GOOGLE_CLIENT_ID=564664161615-trp3pidu5lm5e6rlf80nor06jitapgdp.apps.googleusercontent.com # Google OAuth客户端ID
 GOOGLE_CLIENT_SECRET=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 # Google OAuth客户端密钥
@@ -36,7 +36,7 @@ LEMONS_SQUEEZY_SIGNATURE_SECRET=qz20010612 # Lemon Squeezy订阅服务的签名�
 CREDITS_ALLOCATED=100 # 分配的信用额度
 VALIDITY_DAYS=31 # 信用额度的有效天数
 
-X_API_KEY=0e10e773a4aafa500663ae71d27d9d6f140d869b2c388e7926b603f98af19a6b # 用于API请求的身份验证密钥
+X_API_KEY= # 用于API请求的身份验证密钥，设置一个随机字符串
 
 MYAPP_PLAN_STARTER_MONTHLY_ID=548033 # 入门月度计划ID
 MYAPP_PLAN_STARTER_YEARLY_ID=550713 # 入门年度计划ID
