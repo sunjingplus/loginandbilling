@@ -100,22 +100,39 @@ bxcj3bf2-3000.asse.devtunnels.ms/api/payment/webhook
 
 在tailwind.config.ts
 控制台运行下面的命令
+
 pnpm add drizzle-orm @neondatabase/serverless dotenv
+
 pnpm add -D drizzle-kit
+
 pnpm add postgres
+
 npx drizzle-kit generate
+
 npx drizzle-kit migrate  （第一次推送数据库到远程需要）
+
 pnpm add next-auth
+
 pnpm add react-loader-spinner
+
 pnpm add vaul
+
 pnpm add @radix-ui/react-dialog
+
 pnpm add @radix-ui/react-icons
+
 pnpm add @radix-ui/react-toast
+
 pnpm add clsx
+
 pnpm add tailwind-merge
+
 Pnpm add @radix-ui/react-dropdown-menu
+
 pnpm add lucide-react
+
 pnpm  add lemonsqueezy.ts
+
  
 
 
