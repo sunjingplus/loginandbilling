@@ -1,6 +1,9 @@
 下载copyfile.js文件夹
+
 更改const ROOT = 'D:\\before\\next\\testloginandbilling'; // 转义反斜杠
+
 将里面的路径替换成自己项目的地址，注意反斜杠
+
 运行这个文件 
 ```bash
 node copyfile.js
