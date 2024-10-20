@@ -174,8 +174,13 @@ pnpm add lucide-react
 
 pnpm add lemonsqueezy.ts
 
-上面语句合并语句是也可只运行此单条语句
-pnpm add drizzle-orm @neondatabase/serverless dotenv postgres next-auth react-loader-spinner vaul @radix-ui/react-dialog @radix-ui/react-icons @radix-ui/react-toast clsx tailwind-merge @radix-ui/react-dropdown-menu lucide-react lemonsqueezy.ts; pnpm add -D drizzle-kit; npx drizzle-kit generate; npx drizzle-kit migrate
+上面语句合并语句是也可只运行下面几条条语句
+pnpm add drizzle-orm @neondatabase/serverless dotenv postgres next-auth react-loader-spinner vaul @radix-ui/react-dialog @radix-ui/react-icons @radix-ui/react-toast clsx tailwind-merge @radix-ui/react-dropdown-menu lucide-react
+pnpm add lemonsqueezy.ts;
+pnpm add -D drizzle-kit;
+npx drizzle-kit generate;
+npx drizzle-kit migrate
+
 
 ```
 
