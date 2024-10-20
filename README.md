@@ -1,3 +1,46 @@
+下载copyfile.js文件夹
+更改const ROOT = 'D:\\before\\next\\testloginandbilling'; // 转义反斜杠
+将里面的路径替换成自己项目的地址，注意反斜杠
+运行这个文件 
+```bash
+node copyfile.js
+```
+
+## 安装依赖
+
+```bash
+pnpm add drizzle-orm @neondatabase/serverless dotenv
+pnpm add -D drizzle-kit
+pnpm add postgres
+
+npx drizzle-kit generate
+npx drizzle-kit migrate
+
+pnpm add next-auth
+pnpm add react-loader-spinner
+pnpm add vaul
+pnpm add @radix-ui/react-dialog
+pnpm add @radix-ui/react-icons
+pnpm add @radix-ui/react-toast
+pnpm add clsx
+pnpm add tailwind-merge
+
+Pnpm add @radix-ui/react-dropdown-menu
+pnpm add lucide-react
+
+pnpm add lemonsqueezy.ts
+
+上面语句合并语句是也可只运行下面几条条语句
+pnpm add drizzle-orm @neondatabase/serverless dotenv postgres next-auth react-loader-spinner vaul @radix-ui/react-dialog @radix-ui/react-icons @radix-ui/react-toast clsx tailwind-merge @radix-ui/react-dropdown-menu lucide-react
+pnpm add lemonsqueezy.ts;
+pnpm add -D drizzle-kit;
+npx drizzle-kit generate;
+npx drizzle-kit migrate
+
+
+```
+
+接下来配置env文件配置，支付的详细配置可看初始化doc文档
 # 谷歌OAuth2.0开发配置步骤
 
 ## 背景
@@ -149,41 +192,6 @@ DEFAULT_CREDITS_TO_USE=10 # 默认使用一次功能用掉的积分的信用额�
 ```
 
 在 `tailwind.config.ts` 中配置。
-
-## 安装依赖
-
-```bash
-pnpm add drizzle-orm @neondatabase/serverless dotenv
-pnpm add -D drizzle-kit
-pnpm add postgres
-
-npx drizzle-kit generate
-npx drizzle-kit migrate
-
-pnpm add next-auth
-pnpm add react-loader-spinner
-pnpm add vaul
-pnpm add @radix-ui/react-dialog
-pnpm add @radix-ui/react-icons
-pnpm add @radix-ui/react-toast
-pnpm add clsx
-pnpm add tailwind-merge
-
-Pnpm add @radix-ui/react-dropdown-menu
-pnpm add lucide-react
-
-pnpm add lemonsqueezy.ts
-
-上面语句合并语句是也可只运行下面几条条语句
-pnpm add drizzle-orm @neondatabase/serverless dotenv postgres next-auth react-loader-spinner vaul @radix-ui/react-dialog @radix-ui/react-icons @radix-ui/react-toast clsx tailwind-merge @radix-ui/react-dropdown-menu lucide-react
-pnpm add lemonsqueezy.ts;
-pnpm add -D drizzle-kit;
-npx drizzle-kit generate;
-npx drizzle-kit migrate
-
-
-```
-
 ## 组件引入
 
 在需要的地方引入组件：
