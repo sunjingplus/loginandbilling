@@ -1,5 +1,5 @@
 "use client";
-import { SubscriptionPlans } from "@/components/（UserLogin）/SubscriptionPlans";
+import { SubscriptionPlans } from "@/components/userLogin/SubscriptionPlans";
 import { SessionProvider } from "next-auth/react";
 
 export default function SubscriptionPage() {
