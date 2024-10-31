@@ -50,6 +50,9 @@ npx drizzle-kit migrate
 ## 背景
 
 在开发需要调用谷歌APIs的产品时，必须通过谷歌OAuth2.0进行验证和授权。由于网络环境的限制，相关开发文章较少。本文将分享使用谷歌OAuth2.0和APIs的前置操作步骤。
+如果是本地测试端口localhost:3000端口可以使用下面的谷歌登录id和secret
+GOOGLE_CLIENT_ID=564664161615-trp3pidu5lm5e6rlf80nor06jitapgdp.apps.googleusercontent.com
+GOOGLE_CLIENT_SECRET=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
 
 ## 步骤
 
